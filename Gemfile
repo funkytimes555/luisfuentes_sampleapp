@@ -27,6 +27,7 @@ gem 'mysql2'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 # group :development, :test do
-#   gem 'webrat'
+    gem 'webrat'
 	gem "rspec-rails", "~> 2.4"
+	gem 'spork', '0.8.4'
 # end
